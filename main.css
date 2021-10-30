@@ -526,6 +526,9 @@ body{
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
+    width: 250px;
+    height: 150px;
+    
 }
 
 
@@ -548,7 +551,12 @@ body{
 }
 
 .prjtlinks{
-    color: white;
+    color: rgb(216, 53, 53);
+}
+.imgpjt{
+    object-fit: cover;
+    width: 250px;
+    height: 150px;
 }
 
 
