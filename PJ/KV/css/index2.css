@@ -50,7 +50,7 @@ main{
 }
 
 #landing-image{
-    background: url("/img/BP/MR GOKUL RESIDENCE/LIVING/FF LIVING - VIEW 01.jpg");
+    background: url("../img/BP/MR GOKUL RESIDENCE/LIVING/FF LIVING - VIEW 01.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ main{
     margin: 0;
 }
 #landing-image2{
-    background: url("/img/BP/MR HAKKIM REIDENCE/KITCHEN/VIEW\ 03.jpg");
+    background: url("../img/BP/MR HAKKIM REIDENCE/KITCHEN/VIEW\ 03.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ main{
     margin: 0;
 }
 #landing-image4{
-    background: url("/img/BP/MR KRISHNA/LIVING/HALL_INTERIOR_VIEW_02.jpg");
+    background: url("../img/BP/MR KRISHNA/LIVING/HALL_INTERIOR_VIEW_02.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ main{
     margin: 0;
 }
 #landing-image5{
-    background: url("/img/BP/MR SARAVANAN RESIDENCE INERIOR/LIVING/01.png");
+    background: url("../img/BP/MR SARAVANAN RESIDENCE INERIOR/LIVING/01.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ main{
     margin: 0;
 }
 #landing-image6{
-    background: url("/img/BP/MR THIYAGU RESIDENCE/LIVING/1.jpg");
+    background: url("../img/BP/MR THIYAGU RESIDENCE/LIVING/1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ main{
     margin: 0;
 }
 #landing-image7{
-    background: url("/img/BP/NALANDHA UNIVERSITY BIHAR/F1.jpg");
+    background: url("../img/BP/NALANDHA UNIVERSITY BIHAR/F1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
