@@ -103,6 +103,24 @@ main{
     flex: 0 1 60vw;
     margin: 0;
 }
+#landing-image8{
+    background: url("../img/BP/ELEVATION/MR PONNVANNAN RESIDENCE/OPTION 02-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+#landing-image9{
+    background: url("../img/BP/ELEVATION/MR SARAVANAN RESIDENCE/VIEW 01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
 
 .btn{
     margin: 2rem 0 0;
