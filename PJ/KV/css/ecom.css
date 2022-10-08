@@ -213,8 +213,8 @@ h3,h4{
         width: 30rem;
     }
     .nav__logo{
-        width: 50%;
-    
+        width: auto;
+        padding-right: 25%;
     }
     .nav__hamburger{
         display: block;
@@ -289,6 +289,15 @@ h3,h4{
     .nav__icons .icon__item,.social-icon{
         padding: 0.3rem;
     }
+    .nav__icons{
+        display: none;
+    }
+    .bannerrelative{
+        top: 2rem;
+    }
+    .hero, .hero .glide__slide{
+        height: 50vh;
+    }
 }
 
 .hero,
@@ -296,7 +305,7 @@ h3,h4{
      background-color: var(--primaryColor);
      position: relative;
      width: 100%;
-     height: 100vh;
+     
 }
 
 .hero .glide__bullet{
@@ -360,7 +369,7 @@ h3,h4{
     max-width: 145rem;
     margin: 0 auto;
     height: 100%;
-    padding-top: 3rem;
+    padding-top: 0rem;
 }
 
 .hero__left{
@@ -425,7 +434,7 @@ h3,h4{
     }
     .hero__left{
         position: absolute;
-        padding: 0 1rem;
+        padding: 0;
         top: 5%;
     }
     .hero__right img{
@@ -567,6 +576,7 @@ h3,h4{
         width: 40px;
         height: 40px;
     }
+    
 }
 
 
@@ -695,7 +705,16 @@ span.dot::before{
     transition: 0.5s;
 }
 
-
+.glide__slides_alter{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    
+}
+.glide__slides_alter li{
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+}
 
 @media only screen and (max-width: 569px){
     .title__container{
@@ -706,7 +725,10 @@ span.dot::before{
     .title__container .section__title{
         margin: 0 0 1.3rem;
     }
-    
+    .latest-center{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .product{
@@ -889,7 +911,7 @@ span.dot::before{
         height: 2.6rem;
     }
     .product ul{
-        top: 25%;
+        top: 45%;
         left: 50%;
         width: 12rem;
         height: 4rem;
@@ -913,10 +935,11 @@ span.dot::before{
 
 @media only screen and (max-width: 460px){
     .product__header{
-        height: 12rem;
+        height: 25rem;
     }
     .product__footer h3{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        background-color:#666;
     }
     .product__header img{
         padding: 0.5rem;
@@ -934,6 +957,7 @@ span.dot::before{
     .category__center{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    
 }
 
 @media only screen and (max-width: 568px){
@@ -1317,7 +1341,7 @@ span.dot::before{
     z-index: -1;
 }
 .client__img{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .client__img img{
@@ -1341,6 +1365,9 @@ span.dot::before{
     font-size: 1.5rem;
     margin-bottom: 3rem;  
 }
+.clint__info{
+    margin-bottom: 3rem;
+}
 
 .clint__info h3{
     font-size: 2rem;
@@ -1349,6 +1376,24 @@ span.dot::before{
 
 .clint__info span{
     font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.glide__slidelistview{
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    grid-template-columns: 2fr 2fr;
+}
+.testimonail__text{
+    font-family: 'Roboto', sans-serif;
+    color: #ccc;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    margin: 0;
+    padding-left: 2rem;
+    font-stretch:ultra-expanded;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 1200px){
@@ -1385,6 +1430,14 @@ span.dot::before{
 
     .testimonail__box span{
         margin-bottom: 1rem;
+    }
+    .testimonail__text,.clint__info h3{
+        font-size: 1.3rem;
+        line-height: 2rem;
+        
+    }
+    .client__img {
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -1618,15 +1671,4 @@ span.dot::before{
 .hero:hover .bannerrelative{
     display: block;
     
-}
-
-.glide__slides_alter{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    
-}
-.glide__slides_alter li{
-  margin: 10px;
-  text-align: center;
-  font-size: 20px;
 }
