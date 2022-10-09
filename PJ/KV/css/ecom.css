@@ -17,6 +17,9 @@
     --green: #59b210;
 
 }
+:root {
+    color-scheme: light only;
+  }
 
 * {
     margin: 0;
