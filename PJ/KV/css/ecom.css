@@ -39,7 +39,7 @@ body,
 input{
     font-size: 1.6rem;
     font-weight: 400;
-    font-family: 'Archivo' , sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: var(--black);
 }
 
@@ -765,6 +765,7 @@ span.dot::before{
 
 .product__footer h3{
     padding: 1rem 0;
+    font-size: 2rem;
 }
 
 .rating svg{
@@ -1565,8 +1566,9 @@ span.dot::before{
 
 .footer-top{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     color: var(--grey3);
+    justify-items: center;
 }
 
 .footer-top__box a:link,
@@ -1587,6 +1589,32 @@ span.dot::before{
 .footer-top__box h3{
     font-size: 1.8rem;
     margin-bottom: 1rem;
+}
+.footeraddress span{
+    font-size: 2rem;
+}
+.footeraddaddress{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+}
+.footeraddaddress h1{
+    padding-bottom: 1rem;
+}
+.footersrtartprjct{
+    padding-top: 3rem ;
+}
+.footersrtartprjct span{
+    font-size: 5rem;
+}
+.socialmediafooterlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 1rem;
+}
+.socialmediafooterlink a{
+    padding: 0 2rem;
 }
 @media only screen and (max-width: 998px){
     .newsletter{
@@ -1637,6 +1665,16 @@ span.dot::before{
         grid-template-columns: repeat(1,1fr);
         
     }
+    .footeraddaddress {
+        padding: 0;
+    }
+    .footeraddress span {
+        font-size: 2rem;
+    }
+    .footer-top__box iframe{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .buldingsimg{
@@ -1674,4 +1712,7 @@ span.dot::before{
 .hero:hover .bannerrelative{
     display: block;
     
+}
+.bannerrelative{
+    display: none;
 }
