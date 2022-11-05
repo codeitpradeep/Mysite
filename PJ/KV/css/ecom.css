@@ -115,7 +115,7 @@ h3,h4{
 .nav__hamburger{
     display: none;
     cursor: pointer;
-
+    padding-left: 1rem;
 }
 
 .nav__hamburger svg{
@@ -450,7 +450,10 @@ h3,h4{
     filter: brightness(100%);
     transform: scale(1.1);
   }
-*/
+*/      
+.hero__img-container video{
+    min-width: 100%;
+}
 @media only screen and (max-width: 999px){
     .hero__center{
         flex-direction: column;
@@ -1571,10 +1574,21 @@ span.dot::before{
     justify-content: space-between;
 }
 
-.newsletter__data h3{
+.newsletter__data h3 ,.nav__item a{
     font-size: 2.4rem;
     font-weight: inherit;
     margin-bottom: 1rem;
+    color: #000;
+}
+.nav__item a{
+    border-radius: 5%;
+    padding: 0.2rem;
+}
+
+.nav__item :hover{
+    background-color: #f1f1f1;
+    border-radius: 5%;
+    padding: 0.2rem;
 }
 
 .newsletter__data p{
