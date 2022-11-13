@@ -1787,12 +1787,12 @@ span.dot::before{
     background-attachment: fixed;
 }
 .pimg1 {
-    background-image: url(/img/BP/UTVI0772.JPEG);
+    background-image: url(../img/BP/UTVI0772.JPEG);
     min-height: 90vh;
     filter: brightness(100%);
 }
 .pimg2{
-    background-image: url(/img/BP/TRGN2641.JPEG);
+    background-image: url(../img/BP/TRGN2641.JPEG);
     min-height: 90vh;
     filter: brightness(100%);
 }
