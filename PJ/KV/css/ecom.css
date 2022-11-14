@@ -315,6 +315,12 @@ h3,h4{
     .hero, .hero .glide__slide{
         height: 50vh;
     }
+    .fix__nav_home{
+        background-color: #222;
+    }
+    .fa-align-justify{
+        color: #fff;
+    }
 }
 
 .hero,
